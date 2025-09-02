@@ -22,20 +22,16 @@
             <p>Check out this helpful resource: <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></p>
         </nav>
     </header>
-
     <main>
         <section id="about">
             <h2>My Photo</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvWRaQc5AVUbBJfpHyHDyiBpZ21_g5yemqBQ&s" alt="Photo of Ivan" width="200" height="200">
-            
             <h2>My Favorite Place</h2>
             <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/life/08/14/20190814-panama-disease.jpg" 
             alt="A beautiful landscape" width="300" height="200">
-
             <h2>About Me</h2>
             <p>Hi! I'm a student at University of Baguio studying Science in Information and Technology.</p>
         </section>
-
         <section id="interests">
             <h2>My Interests</h2>
             <ul>
@@ -45,7 +41,6 @@
                 <li><p>Poker.</p></li>
             </ul>    
         </section>
-
         <section>
             <h2>Fun Facts About Me</h2>
             <ul>
@@ -53,10 +48,8 @@
                 <li>My favorite food is <em>Saging</em></li>
                 <li>I've visited <mark>Banana fields</mark> different countries/states</li>
             </ul>
-
              <section>
-        <h2>My Class Schedule</h2>
-        
+        <h2>My Class Schedule</h2>  
         <table border="1">
             <thead>
                 <tr>
@@ -93,7 +86,6 @@
                     <td>PROGIT</td>
                     <td>INTRCS</td>
                 </tr>
-                
             </tbody>
         </table>
     </section>
@@ -105,23 +97,18 @@
                      Your browser does not support the video tag.
                 </video>
             </section>
-
         </section>
     </main>
 </body>
-    
     <section id="contact">
         <h2>Contact Me</h2>
         <form>
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
-            
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
-            
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-            
             <label for="year">Academic Year:</label><br>
             <select id="year" name="year">
                 <option value="freshman">Freshman</option>
@@ -129,11 +116,9 @@
                 <option value="junior">Junior</option>
                 <option value="senior">Senior</option>
             </select><br><br>
-            
             <input type="submit" value="Send Message">
         </form>
     </section>
-    
     <footer>
         <p>&copy; 2025 Ivan Calixto . All rights reserved.</p>
     </footer>
