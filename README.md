@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"content="I.Calixto"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My First Webpage</title>
 </head>
 <body>
@@ -22,17 +23,21 @@
             <p>Check out this helpful resource: <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></p>
         </nav>
     </header>
-    <main>
+
+<main>
         <section id="about">
             <h2>My Photo</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvWRaQc5AVUbBJfpHyHDyiBpZ21_g5yemqBQ&s" alt="Photo of Ivan" width="200" height="200">
-            <h2>My Favorite Place</h2>
+            
+<h2>My Favorite Place</h2>
             <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/life/08/14/20190814-panama-disease.jpg" 
             alt="A beautiful landscape" width="300" height="200">
-            <h2>About Me</h2>
+
+<h2>About Me</h2>
             <p>Hi! I'm a student at University of Baguio studying Science in Information and Technology.</p>
         </section>
-        <section id="interests">
+
+<section id="interests">
             <h2>My Interests</h2>
             <ul>
                 <li><p>Billiards.</p></li>
@@ -41,15 +46,15 @@
                 <li><p>Poker.</p></li>
             </ul>    
         </section>
-        <section>
+<section>
             <h2>Fun Facts About Me</h2>
             <ul>
                 <li>I can <strong>speak Bisaya </strong> languages</li>
                 <li>My favorite food is <em>Saging</em></li>
                 <li>I've visited <mark>Banana fields</mark> different countries/states</li>
             </ul>
-             <section>
-        <h2>My Class Schedule</h2>  
+<section>
+        <h2>My Class Schedule</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -88,19 +93,19 @@
                 </tr>
             </tbody>
         </table>
-    </section>
-            <section>
-                <h2>Media</h2>
-                <p>Here's a short video introduction:</p>
-                 <video width="320" height="240" controls>
+ </section>
+<section>
+        <h2>Media</h2>
+            <p>Here's a short video introduction:</p>
+                <video width="320" height="240" controls>
                     <source src="C:\Users\calixto_i\Desktop\index.html\My_webpage\puno.mp4" type="video/mp4">
-                     Your browser does not support the video tag.
+                         Your browser does not support the video tag.
                 </video>
             </section>
-        </section>
-    </main>
-</body>
-    <section id="contact">
+
+</section>
+</main>
+<section id="contact">
         <h2>Contact Me</h2>
         <form>
             <label for="name">Name:</label><br>
@@ -123,3 +128,4 @@
         <p>&copy; 2025 Ivan Calixto . All rights reserved.</p>
     </footer>
     
+</body>
